@@ -1,0 +1,248 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #000;
+    background-image: url(../img/giiiiiiiiiiif.gif);
+    background-repeat: repeat;
+    background-position: cover;
+    width: 100%;
+    height: 100%;
+}
+.bg-gradient{
+    background-color: #0a0a0a !important;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #e0dddd !important;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+}
+.x-space-div a{
+    font-size: 35px;
+    font-weight: 900;
+    color: #549adf!important;
+    color: #cdcd51!important;
+
+}
+.x-space-subtitle{
+   /*  color: #549adf !important; */
+    color: #cdcd51 !important;
+
+}
+.x-space-btn a{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #549adf !important;
+    color: #e6e3e3 !important;
+}
+
+.x-space-btn:hover a{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #549db2 !important;
+    color: #cdcd51 !important;
+}
+.x-space-div i{
+    font-size: 30px !important;
+    color: #e0dddd !important;
+}
+.container{
+    width: 85%;
+    height: 100vh !important;
+}
+
+input, textarea {
+    background-color: #F3E5F5;
+    border-radius: 50px !important;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #F3E5F5;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 400;
+}
+.space-icon{
+    text-align: center;
+    font-size: 4.5rem;
+    color: #c2cef7;
+}
+
+input:focus, textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 3px solid #00c3f9;
+    background-color: #000 !important;
+    color: #fff !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+.form-control {
+    border:#000;
+    background-color: #c2cef7;
+}
+a{
+    text-decoration: none !important;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    background-color: #000 !important;
+    color: #fff !important;
+    
+    
+}
+
+.card1 {
+    width: 50%;
+    padding: 40px 30px 10px 30px;
+    border: #00c3f9 1px solid !important;
+    border-radius: 40px !important;
+}
+
+.card2 {
+    width: 50%;
+    background: url(../img/original-2a7a6e02d99d870b3ea0982657ba3cce.gif);
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: #00c3f9 1px solid !important;
+    border-radius: 40px !important;
+
+} 
+.msg-info{
+font-size: 20px;
+}
+.x-space{
+    color: #00c3f9;
+}
+.heading {
+    margin-bottom: 60px !important;
+}
+
+::placeholder {
+    color: #000 !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #000 !important;
+}
+
+::-ms-input-placeholder {
+    color: #000 !important;
+}
+
+.form-control-label {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.msg-info {
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.btn-color {
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, #0138ff, #048ad399);
+    padding: 15px;
+    cursor: pointer;
+    border: none ;
+    margin-top: 40px;
+    transition: all 1s ;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-position: linear-gradient(to left, #0138ff, #048ad399);
+
+}
+
+
+.btn-blue {
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: #00c3f9 1px solid !important;
+   /*  border: #cdcd51 1px solid !important;*/
+} 
+
+.btn-blue a{
+    color: #00c3f9;
+}
+
+.btn-blue:hover a{
+    color: #00c3f9;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 50px !important;
+}
+
+.sm-text {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width: 100%;
+        padding: 40px 30px 10px 30px;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px !important;
+    }
+
+    .card2 {
+        padding: 50px;
+    }
+
+    .right {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+}
