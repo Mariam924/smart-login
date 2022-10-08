@@ -48,14 +48,20 @@ function addAccount() {
 /* -------------------------------- Check the existance of email ------------------------------*/
 
 function emailExist(){
-    for(let i=0 ; i< signupContainer.length ; i++){
-        if(SignupEmail.value.toLowerCase() == signupContainer[i].email.toLowerCase()){
-            return true;
+    var returnValue;
+    
+    for(var i=0 ; i< signupContainer.length ; i++){
+        if(SignupEmail.value === signupContainer[i].email){
+            console.log(signupContainer[i].email + "exist");
+            returnValue = 1;
         }
         else{
-            return false;
+            console.log(signupContainer);
+            returnValue = 0;
+
         }
     }
+    return returnValue;
 }
 
 /* ------------------------------------------- ClearForm ------------------------------------- */
